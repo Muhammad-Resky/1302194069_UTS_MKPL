@@ -1,7 +1,8 @@
 package lib;
 // 1302194069_Muhammad Resky
+import java.time.LocalDate;
 
-public class Add_yearJoined {
+public class Add_yearJoined extends Employee {
     private int yearJoined;
 	private int monthJoined;
 	private int dayJoined;
