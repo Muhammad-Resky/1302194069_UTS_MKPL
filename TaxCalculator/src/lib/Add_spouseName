@@ -1,0 +1,12 @@
+package lib;
+// 1302194069_Muhammad Resky
+
+public class Add_spouseName extends Employee{
+private String spouseName;
+	private String spouseIdNumber;
+
+    public void setSpouse(String spouseName, String spouseIdNumber) {
+		this.spouseName = spouseName;
+		this.spouseIdNumber = idNumber;
+	}
+}
