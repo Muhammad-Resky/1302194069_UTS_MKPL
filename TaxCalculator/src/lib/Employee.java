@@ -13,16 +13,11 @@ public class Employee {
 	private String idNumber;
 	private String address;
 	
-	
+
 	private boolean isForeigner;
 	private boolean gender; //true = Laki-laki, false = Perempuan
 
-	
-	
 
-	private List<String> childNames;
-	private List<String> childIdNumbers;
-	
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, boolean isForeigner, boolean gender) {
 		this.employeeId = employeeId;
 		this.firstName = firstName;
@@ -53,13 +48,6 @@ public class Employee {
 	
 	public void setAdditionalIncome(int income) {	
 		this.otherMonthlyIncome = income;
-	}
-	
-	
-	
-	public void addChild(String childName, String childIdNumber) {
-		childNames.add(childName);
-		childIdNumbers.add(childIdNumber);
 	}
 	
 }
